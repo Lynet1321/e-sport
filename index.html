@@ -4,24 +4,40 @@
     <meta charset="UTF-8">
     <title>E-sport</title>
     <style>
-        header{
+        #container{
             display: grid;
-            grid-template-columns: 300px;
+            width: 95vw;
+            height: 95vh;
+            margin: 0 auto;
+            grid-template-columns: repeat(12, 1fr);
         }
-        header nav div{
-            background-image: src("http://popidol.no/wp-content/uploads/2017/06/does-esports-need-a-players’-union.jpg");
+        header{
+            height: 150px;
+            row-span: 9;
+            background-color: #0D5EAF;
+        }
+        nav{
+            grid-column: 10/13;
+            background-color: #ee4500;
+        }
+        main{
+
         }
     </style>
 
 </head>
 <body>
-    <header>
-        <nav>
-            <div></div>
-        </nav>
-    </header>
-    <main>
+    <div id="container">
+        <header>
 
-    </main>
+        </header>
+
+        <nav>
+
+        </nav>
+        <main>
+
+        </main>
+    </div>
 </body>
 </html>
