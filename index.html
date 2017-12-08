@@ -5,66 +5,39 @@
     <title>E-sport</title>
     <style>
         #container{
-            display: flex;
-            flex-direction: row;
-
-
-        }
-        .hogm{
-            order:1;
-            width: 85%;
-        }
-        
+            display: grid;
+            width: 95vw;
+            height: 95vh;
+            margin: 0 auto;
+            grid-template-columns: repeat(12, 1fr);
         }
         header{
-            width: 100%;
-            height: 200px;
+            height: 150px;
+            row-span: 9;
             background-color: #0D5EAF;
-
         }
         nav{
+            grid-column: 10/13;
             background-color: #ee4500;
-            width: 20%;
-            height: 100%;
-            order: 2;
-
-
-        }
-        nav div{
-            display: grid;
-            grid-template-rows: 25vh;
-            background-color: #0DD936;
         }
         main{
 
-
-        }
-        img{
-            width: 100% ;
         }
     </style>
 
 </head>
 <body>
     <div id="container">
-        <div class="hogm bob">
         <header>
 
         </header>
 
-
-        <main>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi autem blanditiis commodi dolorem ducimus esse est facere, facilis id ipsa iure laborum magnam nobis obcaecati, quaerat sapiente sunt voluptate.
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facilis neque nisi, quam reiciendis saepe ut! Aliquid commodi dolor doloremque dolorum molestiae nam quis. Architecto ducimus inventore libero suscipit velit!</p>
-            <p></p><p></p><p></p><p></p><p></p><p></p><p><img src="https://y4j7y8s9.ssl.hwcdn.net/wp-content/uploads/2016/02/slack-imgs.com-6.jpeg"></p><p></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur dolorem et illum, impedit in ipsa laboriosam modi necessitatibus repudiandae sunt veritatis vero voluptatem. Nostrum obcaecati provident quam quidem voluptatum.</p><p></p><p></p><p></p><p></p><p></p><p></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur corporis dicta dolorum esse expedita iure libero, natus nemo nobis odio porro quia, rem repellat repudiandae vitae voluptas voluptate voluptatem.</p><p></p><p></p>
-        </main>
-        </div>
         <nav>
-            <div>hei</div>
-            <div>hei1</div>
-            <div>hei2</div>
-            <div>hei3</div>
+
         </nav>
+        <main>
+
+        </main>
     </div>
 </body>
 </html>
