@@ -41,20 +41,23 @@
     .kol12 {grid-column: span 12}
 }
 #container{
+    background-color: #B1C9E0;
     display: flex;
     flex-direction: row;
+    column-gap: 5px;
 }
 .hogm{
     order:1;
     width: 85%;
 }
 body{
-    background-color: #B1C9E0;
+    background-color: white;
 }
 header{
     height: 200px;
     width: 100%;
     background-color: #0D5EAF;
+
 }
 header img{
     height: 120px;
@@ -64,13 +67,19 @@ nav{
     width: 20%;
     height: 100%;
     order: 2;
-
-
 }
 nav div{
     display: grid;
     grid-template-rows: 25vh;
     background-color: #FFC384;
+}
+nav div img{
+    height: 80%;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 main{
     display: grid;
