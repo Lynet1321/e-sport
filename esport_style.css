@@ -58,7 +58,7 @@ header{
     width: 100%;
     background-color: #0D5EAF;
     border-bottom: #595952 solid 5px;
-
+    text-align: center;
 }
 
 .logo{
@@ -75,7 +75,7 @@ header{
 
 nav{
     border-left: #595952 solid 5px;
-    background-color: #FFC384;
+    background-color: black;
     width: 20%;
     height: 100%;
     order: 2;
@@ -83,7 +83,8 @@ nav{
 nav div{
     display: grid;
     grid-template-rows: 25vh;
-    background-color: #FFC384;
+    background-color: #595952;
+    text-align: center;
 }
 nav div img{
     height: 80%;
@@ -91,7 +92,7 @@ nav div img{
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 main{
     display: grid;
