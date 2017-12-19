@@ -85,3 +85,6 @@ main{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
+
+/* Legg til mellomromm mellom nav og header */
+
