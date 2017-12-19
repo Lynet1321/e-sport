@@ -54,15 +54,27 @@ body{
     background-color: white;
 }
 header{
-    height: 200px;
+    height: 260px;
     width: 100%;
     background-color: #0D5EAF;
+    border-bottom: #595952 solid 5px;
 
 }
-header img{
+
+.logo{
     height: 120px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
+
+.banner{
+    height: 260px;
+    width: 750px;
+}
+
 nav{
+    border-left: #595952 solid 5px;
     background-color: #FFC384;
     width: 20%;
     height: 100%;
