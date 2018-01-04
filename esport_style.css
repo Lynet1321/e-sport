@@ -40,6 +40,15 @@
     .kol11 {grid-column: span 12}
     .kol12 {grid-column: span 12}
 }
+
+@media(max-width: 800px) {
+    .logo{
+        height: 90px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+}
 #container{
     background-color: #B1C9E0;
     display: flex;
@@ -54,7 +63,6 @@ body{
     background-color: white;
 }
 header{
-    height: 260px;
     width: 100%;
     background-color: #0D5EAF;
     border-bottom: #595952 solid 5px;
@@ -62,15 +70,19 @@ header{
 }
 
 .logo{
-    height: 120px;
+    max-height: 120px;
+    min-width: 40px;
     position: absolute;
     top: 5px;
     left: 5px;
 }
 
 .banner{
-    height: 260px;
-    width: 750px;
+    max-width: 750px;
+    min-width: 400px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 nav{
