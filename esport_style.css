@@ -75,7 +75,7 @@ header{
 
 nav{
     border-left: #595952 solid 5px;
-    background-color: black;
+    background-color: #595952;
     width: 20%;
     height: 100%;
     order: 2;
@@ -97,6 +97,20 @@ a {
 main{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+}
+
+.kol10{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 100px;
+    font-family: "Lucida Sans";
+    color: rgba(20,20,20,0.96)
+}
+
+.tw{
+
+
+
 }
 
 /* Vi skal legge inn de forskjellige sidene og teksten vår */
