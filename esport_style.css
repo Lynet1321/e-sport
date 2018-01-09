@@ -103,7 +103,15 @@ nav div img{
     display: block;
 }
 
+.linkuboy{
+    color: rgba(32,32,32,0.62);
+    text-decoration: underline;
+}
 
+.linkuboy:hover{
+
+    color: grey;
+}
 
 a {
     text-decoration: none;
