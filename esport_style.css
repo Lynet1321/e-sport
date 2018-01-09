@@ -109,10 +109,22 @@ nav div img{
 a {
     text-decoration: none;
     color: white;
+
 }
+
+a:hover{
+    color: lightgray;
+
+}
+
 main{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+}
+
+h1{
+    text-align: center;
+
 }
 
 .kol10{
