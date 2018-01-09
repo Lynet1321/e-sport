@@ -93,12 +93,12 @@ nav{
 }
 nav div{
     display: grid;
-    grid-template-rows: 25vh;
+    max-height: 200px;
     background-color: #595952;
     text-align: center;
 }
 nav div img{
-    height: 80%;
+
     width: 100%;
     display: block;
 }
@@ -124,6 +124,9 @@ main{
 h1{
     text-align: center;
 
+}
+body{
+    min-width: 500px;
 }
 
 .kol10{
