@@ -135,9 +135,13 @@ h1{
     color: rgba(20,20,20,0.96)
 }
 
-.tw{
+.kilder{
 
-
+    font-size: 15px;
+    text-align: center;
+    margin-left: 100px;
+    font-family: "Lucida Sans";
+    color: rgba(20,20,20,0.96)
 
 }
 
